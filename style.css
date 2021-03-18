@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+}
+.maindiv {
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(180deg, rgb(233, 233, 233) 80%, rgb(255, 255, 255) 100%);
+}
+.menu {
+    width: 290px;
+    height: 1080px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.userphoto {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    margin-left: 102px;
+    margin-top: 92px;
+    margin-bottom: 902px;
+}
+
+.username {
+    font-weight: bold;
+    position:absolute;
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 21px;
+    margin-top: 193px;
+    margin-left: 48px;
+    color: #0D1C2E;
+}
+
+.chevron-down-1 {
+    position: absolute;
+    width: 19px;
+    margin-right: 0;
+    top: 37,5%;
+    cursor: pointer;
+}
+#opções{ 
+    position: absolute;
+    margin-top: 250px; 
+}
+.options{
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 82px;
+    color: #707C97;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+.imgmenu{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 48px;
+}
+
+#img1{
+    margin-top:45px;
+}
+
+#img2{
+    margin-top: 110px;
+}
+
+#img3{
+    margin-top: 175px;
+}
+
+#img4{
+    margin-top: 240px;
+}
+#img5{
+    margin-top: 304px;
+}
+#img6{
+    margin-top: 370px;
+}
+
+.chats{
+    width: 1630px;
+    height: 1080px;
+    background: linear-gradient(180deg, rgb(233, 233, 233) 80%, rgb(255, 255, 255) 100%);
+}
+
+h1{
+    position: absolute;
+    margin-top: 109px;
+    margin-left: 349px;
+    font-size: 36px;
+}
+h2{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #707C97;
+}
+
+.criarnovochat{
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 110px;
+    width: 240px;
+    height: 60px;
+    background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#plus{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 18px;
+    left: 25px;
+}
+
+#createnewchat{
+    position: absolute;
+    top: 18px;
+    left: 56px;
+    font-size: 20px;
+    color: white;
+}
+
+.barradebusca{
+    position: absolute;
+    left: 350px;
+    top: 200px;
+    Width: 580px;
+    Height:70px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: text;
+}
+
+#lupa{
+    position: absolute;
+    top: 22px;
+    left: 41px;
+}
+
+#messages, #search{
+    color: #707C97;
+    font-size: 18px;
+}
+
+#search{
+    position: absolute;
+    top: 22px;
+    left: 75px;
+}
+
+#messages{
+    position: absolute;
+    top: 22px;
+    right: 60px;
+    color: #707C97;
+}
+
+.chat1, .chat2, .chat3, .chat4{
+    width: 580px;
+    height: 220px;
+    background-color: white;
+    position: absolute;
+    left: 350px;
+    border-radius: 6px;
+}
+
+.chat1{
+    top: 290px;
+}
+
+.chat2{
+    top: 530px;
+}
+
+.chat3{
+    top: 770px;
+}
+
+.chat4{
+    top: 1010px;
+}
+
+.userimage{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.username2{
+    position: relative;
+    top: 33px;
+    left: 116px;
+    color: #0D1C2E;
+    font-size: 18px;
+}
+
+.descrição{
+    color: #2A8BF2;
+    font-size: 16px;
+    position: relative;
+    top: 35px;
+    left: 136px;
+}
+
+.whites{
+    position: absolute;
+    top: 64px;
+    left: 118px;
+}
+
+.mensagem{
+    position: absolute;
+    top: 101px;
+    left: 40px;
+    right: 90px;
+    text-justify: auto;
+    color: #707C97;
+}
+
+#photos, #files{
+    width: 94px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    cursor: pointer;
+}
+
+#photos{
+    background: rgba(255, 51, 102, 0.25);
+    color: #FF3366;
+    position: absolute;
+    left: 160px;
+}
+#files{
+    width: 106px;
+    background: rgba(42, 139, 242, 0.25);
+    color: #2A8BF2;
+}
+
+#aa{
+    position: absolute;
+    top: 12px;
+    left: 38px;
+}
+
+#bb{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.logout{
+    position: absolute;
+    top: 800px;
+    font-size: 16px;
+    margin-left: 82px;
+    color: #707C97;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+#logout{
+    position: absolute;
+    top: 795px;
+    left: 40px;
+}
+
+.time{
+    position: absolute;
+    top: 35px;
+    right: 38px;
+    color: #707C97;
+}
+
+.principalchat{
+    width: 800px;
+    height: 930px;
+    background-color: white;
+    position: relative;
+    top: 110px;
+    left: 1010px;
+    border-radius: 10px;
+}
+
+.nomechatprincipal{
+    position: absolute;
+    font-size: 20px;
+    top: 31px;
+    left: 125px;
+    text-transform: uppercase;
+}
+
+.descriçãochatprincipal{
+    position: absolute;
+    top: 58px;
+    left: 125px;
+    font-size: 16px;
+    color: #2A8BF2;
+}
+
+#attach, #morevertical{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 30px;
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgb(145, 145, 145);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#attach{
+    left: 625px;
+}
+
+#morevertical{
+    left: 700px;
+}
+
+#cc{
+    position: relative;
+    top: 14px;
+    left: 14px;
+}
+
+#typemessage{
+    border: transparent;
+    font-size: 20px;
+    position: absolute;
+    left: 100px;
+    bottom: 38px;
+    color: #707C97;
+    width: 400px;
+    height: 50px;
+}
+
+#searchbar{
+    border: transparent;
+    font-size: 20px;
+    position: absolute;
+    left: 75px;
+    bottom: 10px;
+    color: #707C97;
+    width: 370px;
+    height: 50px;
+}
+#searchbar:focus, #typemessage:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#smile{
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    cursor: pointer;
+}
+
+#enviar{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#nn{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.tt1{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tt2{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    bottom: 90px;
+    left: 30px;
+    background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tt3{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    bottom: 140px;
+    left: 30px;
+    background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tt4{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    bottom: 190px;
+    left: 30px;
+    background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.barraa{
+    width: 600px;
+    height: 2px;
+    position: absolute;
+    top: 100px;
+    background: rgba(112, 124, 151, 0.1);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#yy{
+    top: 845px;
+}
+.receivedmessage {
+    width: 520px;
+    height: 85px;
+    background: linear-gradient(180deg, #83bfff 20%, #007bff 100%);
+    color: white;
+    font-size: 18px;
+    border-radius: 0px 10px 10px 10px;
+    position: relative;
+    top: 140px;
+    left: 80px;
+}
+
+#textreceived{
+    position: absolute;
+    top: 14px;
+    bottom: 25px;
+    left: 22px;
+    right: 27px;
+}
+
+.sentmessage{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #707C97;
+    color: #707C97;
+    font-size: 18px;
+    border-radius: 10px 0px 10px 10px;
+    position: absolute;
+    top: 240px;
+    right: 80px;
+}
+
+#senttext{
+    position: relative;
+    top: 14px;
+    left: 21px;
+}
